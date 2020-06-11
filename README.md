@@ -1,6 +1,6 @@
 # Romão.js
 
-A library that calculates Romão age.
+Lib for executing tasks forever(while Romao isAlive()) every second. Usage:
 
 ## Spoiler
 
@@ -8,7 +8,16 @@ Returns infinite
 
 ## Usage
 
-See example.js in this repo.
+Code below:
+
+```javascript
+const Romao = require('.');
+let task = () => {
+  console.log("Executing task")
+}
+
+let Joao = new Romao(task);
+```
 
 ## Author
 
